@@ -1,7 +1,7 @@
 --
-layout:post
-title:七月八日阴
-categories:life
+layout: post
+title: 七月八日阴
+categories: life
 --
 
 ```
