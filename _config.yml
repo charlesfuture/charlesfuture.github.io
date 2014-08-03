@@ -1,11 +1,11 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl: http://www.mazhuang.org
-url: http://www.mazhuang.org
+baseurl: http://www.0sta.com
+url: http://www.0sta.com
 date_format: "ordinal"
-title: 靠谱-ing
-author: Zhuang Ma 
+title: 零星-0sta
+author: 0sta 
 paginate: 9
 
 # ---------------- #
@@ -32,7 +32,7 @@ collections:
 # ---------------- #
 #      Comments    #
 # ---------------- #
-duoshuo_short_name: mazhuang
+duoshuo_short_name: 0sta
 
 # ---------------- #
 #      Adsense     #
