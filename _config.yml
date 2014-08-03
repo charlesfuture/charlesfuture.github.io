@@ -1,12 +1,24 @@
-# Site settings
-title: 向珍儿大人致敬
-email: tolezai@163.com
-description: "七月七日晴，玫瑰尚未凋零，趁此良辰美景，以话语之零星，向珍儿致敬。"
-baseurl: ""
-url: "http://www.0sta.com"
-twitter_username: charlesfuture
-github_username:  charlesfuture
+# standard jekyll configuration options
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+exclude: ['Rakefile', 'README.md', 'config.rb']
+
+# configuration required for some pages
+
+domain: blog.example.com
+title: My Blog Title
+author: Me
+email: me@example.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+# github:
+#   username: ghusername
+
+# disqus:
+#   id: disqusid
