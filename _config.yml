@@ -1,24 +1,41 @@
-# standard jekyll configuration options
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: http://www.mazhuang.org
+url: http://www.mazhuang.org
+date_format: "ordinal"
+title: 靠谱-ing
+author: Zhuang Ma 
+paginate: 9
 
-exclude: ['Rakefile', 'README.md', 'config.rb']
+# ---------------- #
+#   RSS / Email    #
+# ---------------- #
+subscribe_rss: /atom.xml
+email:
 
-# configuration required for some pages
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: redcarpet
+redcarpet: 
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
+pygments: true
+permalink: /:year/:month/:day/:title
+gems:
+    - jekyll-sitemap
+collections:
+    blog:
+        output: true
+        permalink: /blog/:path/
 
-domain: blog.example.com
-title: My Blog Title
-author: Me
-email: me@example.com
+# ---------------- #
+#      Comments    #
+# ---------------- #
+duoshuo_short_name: mazhuang
 
-# configuration for ehancements, uncomment to enable
-
-# feedburner:
-#   id: feedburnerid
-
-# google_analytics:
-#   account: UA-XXXXX-X
-
-# github:
-#   username: ghusername
-
-# disqus:
-#   id: disqusid
+# ---------------- #
+#      Adsense     #
+# ---------------- #
+adsense: true
+amazon: false

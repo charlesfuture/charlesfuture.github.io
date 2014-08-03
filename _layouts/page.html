@@ -2,9 +2,10 @@
 <div id="container">
     {% include navigation.html %}
     <div id="main">
-        <h2> {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </h2>
+        <h2> {{ page.title }} </h2>
         {{ content }}
-        {% include ads_footer.html %}
+        {% include ads_footer.html %}        
+        {% include duoshuo.html %}
     </div>
 </div>
 {% include footer.html %}
