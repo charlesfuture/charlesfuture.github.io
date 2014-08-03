@@ -1,23 +1,13 @@
 ---
 layout: page
-title: Zhuang Ma
+title: 0sta
 ---
 
-**Software Engineer at [Sogou, Inc.](http://www.sogou.com)**  
-Beijing City, China | Computer Software  
+I'm interested in machine learning, computer vision, and data mining.
   
-*Education:* Wuhan Institute of Technology  
-scholar, CS/IT  
+*Education:* Beijing University of Post and Communications 
+scholar, Communication Engineering
 
-*Contact:* `print '%s@%s' % ('ChumpMa', 'gmail.com')  #via Python`  
 
-*Social:*  [github](http://github.com/mzlogin) | [linkedin](http://www.linkedin.com/in/mazhuang) | [weibo](http://weibo.com/mzlogin) | [douban](http://www.douban.com/people/freedim/) | [csdn](http://blog.csdn.net/mzlogin)   
+*Social:*  [github](http://github.com/charlesfuture) | [douban](http://www.douban.com/people/58561660/) | [linkdin](http://www.linkedin.com/pub/%E6%B5%8E%E6%9C%9D-%E5%BC%A0/92/824/843) | [weibo](ttp://weibo.com/u/1677213335) | [csdn](http://blog.csdn.net/tanyuanwudi)
     
-```c++
-#include <iostream>
-int main()
-{
-	std::cout << "Hello, my friend!" << std::endl;
-	return 0;
-}
-```
