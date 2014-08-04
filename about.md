@@ -5,7 +5,7 @@ title: 0sta
 
 I'm interested in **machine learning**, **computer vision**, and **data mining**.
   
-*Education:* Beijing University of Post and Communications,
+*Education:* Beijing University of Post and Telecommunications,
 scholar, Communication Engineering
 
 
